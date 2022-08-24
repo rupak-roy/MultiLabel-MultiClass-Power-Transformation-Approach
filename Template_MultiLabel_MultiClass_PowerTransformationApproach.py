@@ -17,7 +17,7 @@ classifier.fit(X_train, y_train)
 
 # predict
 predictions = classifier.predict(X_test)
-accuracy_score(y_test,predictions)
+#accuracy_score(y_test,predictions)
 
 # using binary relevance
 from skmultilearn.problem_transform import BinaryRelevance
@@ -34,5 +34,5 @@ classifier.fit(X_train, y_train)
 # predict
 predictions = classifier.predict(X_test)
 
-from sklearn.metrics import accuracy_score
-accuracy_score(y_test,predictions)
+#from sklearn.metrics import accuracy_score
+#accuracy_score(y_test,predictions)
